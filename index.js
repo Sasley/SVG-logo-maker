@@ -1,6 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const { generateLogo} = require(logo.svg)
+
 // const { Triangle, Circle, Square } = require('')
 
 inquirer.prompt([
@@ -18,18 +18,19 @@ inquirer.prompt([
     {
         name: "Color",
         message: "Which color would you like?",
-        type: "input", 
-        import { validateHTMLColor } from "validate-color";
+        type: "input",
+    }, 
+        // import { validateHTMLColor } from "validate-color";
 
 
-import { validateHTMLColorHex } from "validate-color";
-import { validateHTMLColorHsl } from "validate-color";
-import { validateHTMLColorName } from "validate-color";
-import { validateHTMLColorRgb } from "validate-color";
-import { validateHTMLColorSpecialName } from "validate-color";
-import { validateHTMLColorHwb } from "validate-color";
-import { validateHTMLColorLab } from "validate-color";
-import { validateHTMLColorLch } from "validate-color";
+// import { validateHTMLColorHex } from "validate-color";
+// import { validateHTMLColorHsl } from "validate-color";
+// import { validateHTMLColorName } from "validate-color";
+// import { validateHTMLColorRgb } from "validate-color";
+// import { validateHTMLColorSpecialName } from "validate-color";
+// import { validateHTMLColorHwb } from "validate-color";
+// import { validateHTMLColorLab } from "validate-color";
+// import { validateHTMLColorLch } from "validate-color";
     {
         name: "ShapeClass",
         message: "What shape would you like to use ?",
