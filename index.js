@@ -25,6 +25,11 @@ inquirer.prompt([
         type: "list",
         choices: ["Triangle", "Circle", "Square"],
     },
+    {
+        name: "ShapeColor",
+        message: "What color is the shape ?",
+        type: "input",
+    },
 ])
 fs.writeFile('logo.svg', '', function (err) {
     if (err) throw err;
