@@ -1,0 +1,46 @@
+//     triangleExample.js
+
+//     function Customer(){
+//         this.name="Jhon";
+//         this.getName=function(){
+//             return this.name;
+//         }
+//     }
+//     function customer(){
+//         return new Customer();
+//     }
+//     squareExample.js
+
+//     function Customer(){
+//         this.name="Jhon";
+//         this.getName=function(){
+//             return this.name;
+//         }
+//     }
+//     triangleExample.js
+
+//     function Customer(){
+//         this.name="Jhon";
+//         this.getName=function(){
+//             return this.name;
+//         }
+//     }
+//     function customer(){
+//         return new Customer();
+//     }
+
+
+
+
+//     function customer(){
+//         return new Customer();
+//     }
+
+
+// triangleExample.js
+
+//     var customer=customer();
+//     var name=customer.getName();
+
+
+    

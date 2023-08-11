@@ -1,6 +1,5 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const lib = require('lib');
 
 // const { Triangle, Circle, Square } = require('')
 
@@ -37,51 +36,4 @@ fs.writeFile('logo.svg', '', function (err) {
     if (err) throw err;
     // console.log('Saved!');
   });
-
-//     triangleExample.js
-
-//     function Customer(){
-//         this.name="Jhon";
-//         this.getName=function(){
-//             return this.name;
-//         }
-//     }
-//     function customer(){
-//         return new Customer();
-//     }
-//     squareExample.js
-
-//     function Customer(){
-//         this.name="Jhon";
-//         this.getName=function(){
-//             return this.name;
-//         }
-//     }
-//     triangleExample.js
-
-//     function Customer(){
-//         this.name="Jhon";
-//         this.getName=function(){
-//             return this.name;
-//         }
-//     }
-//     function customer(){
-//         return new Customer();
-//     }
-
-
-
-
-//     function customer(){
-//         return new Customer();
-//     }
-
-
-// triangleExample.js
-
-//     var customer=customer();
-//     var name=customer.getName();
-
-
-
   init();
