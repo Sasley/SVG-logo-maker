@@ -12,6 +12,10 @@
   "dependencies": {
     "@form-validation/validator-color": "^2.4.0",
     "inquirer": "^8.2.4",
+    "lib": "^5.0.1",
     "validate-color": "^2.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2"
   }
 }
